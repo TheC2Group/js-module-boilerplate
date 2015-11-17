@@ -1,0 +1,28 @@
+{
+  "name": "module",
+  "version": "1.0.0",
+  "description": "Boilerplate project for a JavaScript Module.",
+  "jsnext:main": "module.js",
+  "main": "cjs/module.js",
+  "export": "module",
+  "scripts": {
+    "iife": "rollup -c rollup-iife.config.js",
+    "cjs": "rollup -c rollup-cjs.config.js",
+    "umd": "rollup -c rollup-umd.config.js",
+    "build": "npm run iife && npm run cjs && npm run umd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:TheC2Group/js-module-boilerplate.git"
+  },
+  "keywords": [
+    "boilerplate"
+  ],
+  "author": "The C2 Group",
+  "license": "MIT (c) The C2 Group (c2experience.com)",
+  "devDependencies": {
+    "babel-preset-es2015-rollup": "^1.0.0",
+    "rollup": "^0.21.0",
+    "rollup-plugin-babel": "^2.1.0"
+  }
+}
