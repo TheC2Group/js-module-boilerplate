@@ -20,6 +20,10 @@
   ],
   "author": "The C2 Group",
   "license": "MIT (c) The C2 Group (c2experience.com)",
+  "bugs": {
+    "url": "https://github.com/TheC2Group/js-module-boilerplate/issues"
+  },
+  "homepage": "https://github.com/TheC2Group/js-module-boilerplate",
   "devDependencies": {
     "babel-preset-es2015-rollup": "^1.0.0",
     "rollup": "^0.21.0",

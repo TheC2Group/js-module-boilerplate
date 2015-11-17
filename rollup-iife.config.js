@@ -4,7 +4,7 @@ const pjson = require('./package.json');
 
 const banner = `/*!
  * ${pjson.name}
- * ${pjson.repository.url}
+ * ${pjson.homepage}
  * @version ${pjson.version}
  * @license ${pjson.license}
  */`;
