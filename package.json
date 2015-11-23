@@ -19,7 +19,8 @@
     "boilerplate"
   ],
   "author": "The C2 Group",
-  "license": "MIT (c) The C2 Group (c2experience.com)",
+  "license": "MIT",
+  "copyright": "(c) The C2 Group (c2experience.com)",
   "bugs": {
     "url": "https://github.com/TheC2Group/js-module-boilerplate/issues"
   },

@@ -6,7 +6,7 @@ const banner = `/*!
  * ${pjson.name}
  * ${pjson.homepage}
  * @version ${pjson.version}
- * @license ${pjson.license}
+ * @license ${pjson.license} ${pjson.copyright}
  */`;
 
 const filename = pjson['jsnext:main'];
