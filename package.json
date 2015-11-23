@@ -1,6 +1,6 @@
 {
   "name": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Boilerplate project for a JavaScript module",
   "jsnext:main": "module.js",
   "main": "cjs/module.js",
