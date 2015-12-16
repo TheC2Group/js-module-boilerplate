@@ -1,11 +1,12 @@
 {
   "name": "module",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Boilerplate project for a JavaScript module",
   "jsnext:main": "module.js",
   "main": "cjs/module.js",
   "export": "module",
   "scripts": {
+    "lint": "jshint module.js",
     "iife": "rollup -c rollup-iife.config.js",
     "cjs": "rollup -c rollup-cjs.config.js",
     "umd": "rollup -c rollup-umd.config.js",
